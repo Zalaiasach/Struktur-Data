@@ -26,9 +26,9 @@ abstract class Handphone{
     protected  String Type;
     private int Harga;
     
-    public Handphone(String Brand, String Type){
-        this.Brand=Brand;
-        this.Type=Type;
+    public Handphone(String B, String T){
+        this.Brand=B;
+        this.Type=T;
     }
 
     public void CekHarga(int Harga){
