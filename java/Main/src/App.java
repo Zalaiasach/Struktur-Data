@@ -39,12 +39,12 @@ abstract class Handphone{
         return Harga;
     }
 
+    abstract void CekHP();
+
     public void displayInfo(){
         System.out.println("Brand: "+Brand);
         System.out.println("Type: "+Type);
     }
-
-    abstract void CekHP();
 }
 
 class HPFlagship extends Handphone{
