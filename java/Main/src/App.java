@@ -9,12 +9,14 @@ public class App {
 
         HPBaru1.displayInfo();
         System.out.println("Harganya= "+HPBaru1.DapatHarga());
-        HPBaru1.CekHP();
+        HPBaru1.CekHP();    
         System.out.println("");
+
         HPBaru2.displayInfo();
         System.out.println("Harganya= "+HPBaru2.DapatHarga());
         HPBaru2.CekHP();
         System.out.println("");
+        
         HPLama.displayInfo();
         System.out.println("Harganya= "+HPLama.DapatHarga());
         HPLama.CekHP();
@@ -31,8 +33,8 @@ abstract class Handphone{
         this.Type=T;
     }
 
-    public void CekHarga(int Harga){
-        this.Harga=Harga;
+    public void CekHarga(int H){
+        this.Harga=H;
     }
 
     public int DapatHarga(){
